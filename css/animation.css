@@ -1,0 +1,62 @@
+#BarChart{
+    transform-origin: bottom;
+    animation: barchart 0.75s infinite alternate;
+}
+@keyframes barchart{
+    100%{
+        transform: translateY(50px);
+    }
+}
+
+#Circle{
+    transform-origin: bottom;
+    animation: circle 0.75s infinite alternate;
+}
+@keyframes circle{
+    100%{
+        transform: translateY(50px);
+    }
+}
+
+#BigCircle{
+    transform-origin: bottom;
+    animation: bigcircle 1s infinite alternate;
+}
+@keyframes bigcircle{
+    100%{
+        transform: translateY(50px);
+    }
+}
+
+#PieChart{
+    transform-origin: bottom;
+    animation: piechart 1s infinite alternate;
+}
+@keyframes piechart{
+    100%{
+        transform: translateY(50px);
+    }
+}
+
+#SmallWheel{
+    transform-origin: 65% 5%;
+    animation: smallwheel 1s infinite linear;
+}
+
+@keyframes smallwheel {
+    100% {
+        transform: translateX(0px) rotate(359deg);
+    }
+
+}
+
+#BigWheel{
+    transform-origin: 74% 20%;
+    animation: bigwheel 1s infinite linear;
+}
+
+@keyframes bigwheel {
+     100% {
+        transform: translateX(0px) rotate(359deg);
+    }
+}
